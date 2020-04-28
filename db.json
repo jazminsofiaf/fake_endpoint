@@ -1,14 +1,24 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"products": [{
+			"id": 1,
+			"name": "Shampo",
+			"price": 35.50,
+			"discount": 20,
+			"description": "Para tu gatito"
+		},
+		{
+			"id": 2,
+			"name": "vacuna",
+			"price": 100.50,
+			"discount": 0,
+			"description": "vacuna contra el coronavirus"
+		},
+		{
+			"id": 3,
+			"name": "pipeta",
+			"price": 3289.578,
+			"discount": 5,
+			"description": "mata pulgas"
+		}
+	]
 }
